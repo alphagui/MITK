@@ -45,7 +45,7 @@ endif()
 option(MITK_USE_SUPERBUILD "Build MITK and the projects it depends on via SuperBuild.cmake." ON)
 
 if(MITK_USE_SUPERBUILD)
-  project(MITK-superbuild)
+  project(DE_SEG-superbuild)
   set(MITK_SOURCE_DIR ${PROJECT_SOURCE_DIR})
   set(MITK_BINARY_DIR ${PROJECT_BINARY_DIR})
 else()
